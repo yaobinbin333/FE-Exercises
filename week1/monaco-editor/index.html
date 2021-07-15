@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 500px;
+            height: 500px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+<button id="save">保存代码</button>
+<script src="./dist/app.js"></script>
+<script>
+    function exportRaw (data, name) {
+        let urlObject = window.URL || window.webkitURL || window;
+        let export_blob = new Blob([data]);
+        let save_link = document.createElementNS("http://www.w3.org/1999/xhtml", "a")
+        save_link.href = urlObject.createObjectURL(export_blob);
+        save_link.download = name;
+        save_link.click();
+    }
+    let btn = document.getElementById('save')
+    let download = function (){
+        let data = window.editor.getValue()
+        let name = 'data.txt';//文件名
+        exportRaw(data, name);
+    }
+    btn.addEventListener('click', download)
+</script>
+</body>
+</html>

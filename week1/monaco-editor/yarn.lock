@@ -206,6 +206,11 @@ ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+big.js@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.nlark.com/big.js/download/big.js-5.2.2.tgz?cache=0&sync_timestamp=1620132748267&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbig.js%2Fdownload%2Fbig.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
+  integrity sha1-ZfCvOC9Xi83HQr2cKB6cstd2gyg=
+
 browserslist@^4.14.5:
   version "4.16.6"
   resolved "https://registry.nlark.com/browserslist/download/browserslist-4.16.6.tgz?cache=0&sync_timestamp=1619789072079&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbrowserslist%2Fdownload%2Fbrowserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
@@ -265,10 +270,34 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+css-loader@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.nlark.com/css-loader/download/css-loader-6.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcss-loader%2Fdownload%2Fcss-loader-6.0.0.tgz#e3f9131229df43e081876f434dc2f4605be9d5ae"
+  integrity sha1-4/kTEinfQ+CBh29DTcL0YFvp1a4=
+  dependencies:
+    icss-utils "^5.1.0"
+    postcss "^8.2.15"
+    postcss-modules-extract-imports "^3.0.0"
+    postcss-modules-local-by-default "^4.0.0"
+    postcss-modules-scope "^3.0.0"
+    postcss-modules-values "^4.0.0"
+    postcss-value-parser "^4.1.0"
+    semver "^7.3.5"
+
+cssesc@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.nlark.com/cssesc/download/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
+  integrity sha1-N3QZGZA7hoVl4cCep0dEXNGJg+4=
+
 electron-to-chromium@^1.3.723:
   version "1.3.774"
   resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.774.tgz?cache=0&sync_timestamp=1626141861694&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.774.tgz#4d6661a23119e35151646c9543b346bb3beca423"
   integrity sha1-TWZhojEZ41FRZGyVQ7NGuzvspCM=
+
+emojis-list@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.nlark.com/emojis-list/download/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
+  integrity sha1-VXBmIEatKeLpFucariYKvf9Pang=
 
 enhanced-resolve@^5.8.0:
   version "5.8.2"
@@ -353,6 +382,14 @@ fastest-levenshtein@^1.0.12:
   resolved "https://registry.nlark.com/fastest-levenshtein/download/fastest-levenshtein-1.0.12.tgz#9990f7d3a88cc5a9ffd1f1745745251700d497e2"
   integrity sha1-mZD306iMxan/0fF0V0UlFwDUl+I=
 
+file-loader@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.nlark.com/file-loader/download/file-loader-6.2.0.tgz#baef7cf8e1840df325e4390b4484879480eebe4d"
+  integrity sha1-uu98+OGEDfMl5DkLRISHlIDuvk0=
+  dependencies:
+    loader-utils "^2.0.0"
+    schema-utils "^3.0.0"
+
 find-up@^4.0.0:
   version "4.1.0"
   resolved "https://registry.nlark.com/find-up/download/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
@@ -397,6 +434,11 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.nlark.com/human-signals/download/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha1-3JH8ukLk0G5Kuu0zs+ejwC9RTqA=
+
+icss-utils@^5.0.0, icss-utils@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.nlark.com/icss-utils/download/icss-utils-5.1.0.tgz#c6be6858abd013d768e98366ae47e25d5887b1ae"
+  integrity sha1-xr5oWKvQE9do6YNmrkfiXViHsa4=
 
 import-local@^3.0.2:
   version "3.0.2"
@@ -459,6 +501,13 @@ json-schema-traverse@^0.4.1:
   resolved "https://registry.npm.taobao.org/json-schema-traverse/download/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"
   integrity sha1-afaofZUTq4u4/mO9sJecRI5oRmA=
 
+json5@^2.1.2:
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/json5/download/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
+  integrity sha1-Lf7+cgxrpSXZ69kJlQ8FFTFsiaM=
+  dependencies:
+    minimist "^1.2.5"
+
 kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
@@ -469,12 +518,28 @@ loader-runner@^4.2.0:
   resolved "https://registry.nlark.com/loader-runner/download/loader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
   integrity sha1-1wIjgNZtFMX7HUlriYZOvP1Hg4Q=
 
+loader-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/loader-utils/download/loader-utils-2.0.0.tgz#e4cace5b816d425a166b5f097e10cd12b36064b0"
+  integrity sha1-5MrOW4FtQloWa18JfhDNErNgZLA=
+  dependencies:
+    big.js "^5.2.2"
+    emojis-list "^3.0.0"
+    json5 "^2.1.2"
+
 locate-path@^5.0.0:
   version "5.0.0"
   resolved "https://registry.nlark.com/locate-path/download/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
   integrity sha1-Gvujlq/WdqbUJQTQpno6frn2KqA=
   dependencies:
     p-locate "^4.1.0"
+
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npm.taobao.org/lru-cache/download/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  integrity sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
+  dependencies:
+    yallist "^4.0.0"
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -497,6 +562,28 @@ mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.nlark.com/mimic-fn/download/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
+
+minimist@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
+  integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+
+monaco-editor-webpack-plugin@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.nlark.com/monaco-editor-webpack-plugin/download/monaco-editor-webpack-plugin-4.0.0.tgz#95be3f48f4220999b909266a9997727f0deab947"
+  integrity sha1-lb4/SPQiCZm5CSZqmZdyfw3quUc=
+  dependencies:
+    loader-utils "^2.0.0"
+
+monaco-editor@^0.25.2:
+  version "0.25.2"
+  resolved "https://registry.nlark.com/monaco-editor/download/monaco-editor-0.25.2.tgz?cache=0&sync_timestamp=1623961471145&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmonaco-editor%2Fdownload%2Fmonaco-editor-0.25.2.tgz#119e2b15bbd968a1a99c03cac9c329316d7c37e9"
+  integrity sha1-EZ4rFbvZaKGpnAPKycMpMW18N+k=
+
+nanoid@^3.1.23:
+  version "3.1.23"
+  resolved "https://registry.nlark.com/nanoid/download/nanoid-3.1.23.tgz?cache=0&sync_timestamp=1620673983269&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnanoid%2Fdownload%2Fnanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
+  integrity sha1-90QIbOfCvEfuCoRyV01ceOQYOoE=
 
 neo-async@^2.6.2:
   version "2.6.2"
@@ -570,6 +657,56 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+postcss-modules-extract-imports@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.nlark.com/postcss-modules-extract-imports/download/postcss-modules-extract-imports-3.0.0.tgz#cda1f047c0ae80c97dbe28c3e76a43b88025741d"
+  integrity sha1-zaHwR8CugMl9vijD52pDuIAldB0=
+
+postcss-modules-local-by-default@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/postcss-modules-local-by-default/download/postcss-modules-local-by-default-4.0.0.tgz?cache=0&sync_timestamp=1602587625149&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss-modules-local-by-default%2Fdownload%2Fpostcss-modules-local-by-default-4.0.0.tgz#ebbb54fae1598eecfdf691a02b3ff3b390a5a51c"
+  integrity sha1-67tU+uFZjuz99pGgKz/zs5ClpRw=
+  dependencies:
+    icss-utils "^5.0.0"
+    postcss-selector-parser "^6.0.2"
+    postcss-value-parser "^4.1.0"
+
+postcss-modules-scope@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/postcss-modules-scope/download/postcss-modules-scope-3.0.0.tgz#9ef3151456d3bbfa120ca44898dfca6f2fa01f06"
+  integrity sha1-nvMVFFbTu/oSDKRImN/Kby+gHwY=
+  dependencies:
+    postcss-selector-parser "^6.0.4"
+
+postcss-modules-values@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.nlark.com/postcss-modules-values/download/postcss-modules-values-4.0.0.tgz#d7c5e7e68c3bb3c9b27cbf48ca0bb3ffb4602c9c"
+  integrity sha1-18Xn5ow7s8myfL9Iyguz/7RgLJw=
+  dependencies:
+    icss-utils "^5.0.0"
+
+postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
+  version "6.0.6"
+  resolved "https://registry.nlark.com/postcss-selector-parser/download/postcss-selector-parser-6.0.6.tgz?cache=0&sync_timestamp=1620752924836&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss-selector-parser%2Fdownload%2Fpostcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
+  integrity sha1-LFu6gXSsL2mBq2MaQqsO5UrzMuo=
+  dependencies:
+    cssesc "^3.0.0"
+    util-deprecate "^1.0.2"
+
+postcss-value-parser@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.nlark.com/postcss-value-parser/download/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
+  integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
+
+postcss@^8.2.15:
+  version "8.3.5"
+  resolved "https://registry.nlark.com/postcss/download/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
+  integrity sha1-mCIWsRNBK8IKhiiekeuZSVKltwk=
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
+
 punycode@^2.1.0:
   version "2.1.1"
   resolved "https://registry.nlark.com/punycode/download/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
@@ -623,6 +760,13 @@ schema-utils@^3.0.0:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
+semver@^7.3.5:
+  version "7.3.5"
+  resolved "https://registry.nlark.com/semver/download/semver-7.3.5.tgz?cache=0&sync_timestamp=1618846864940&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver%2Fdownload%2Fsemver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
+  integrity sha1-C2Ich5NI2JmOSw5L6Us/EuYBjvc=
+  dependencies:
+    lru-cache "^6.0.0"
+
 serialize-javascript@^6.0.0:
   version "6.0.0"
   resolved "https://registry.nlark.com/serialize-javascript/download/serialize-javascript-6.0.0.tgz?cache=0&sync_timestamp=1624284111898&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fserialize-javascript%2Fdownload%2Fserialize-javascript-6.0.0.tgz#efae5d88f45d7924141da8b5c3a7a7e663fefeb8"
@@ -659,6 +803,11 @@ source-list-map@^2.0.1:
   resolved "https://registry.nlark.com/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
 
+source-map-js@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.npm.taobao.org/source-map-js/download/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
+  integrity sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=
+
 source-map-support@~0.5.19:
   version "0.5.19"
   resolved "https://registry.npm.taobao.org/source-map-support/download/source-map-support-0.5.19.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map-support%2Fdownload%2Fsource-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
@@ -681,6 +830,11 @@ strip-final-newline@^2.0.0:
   version "2.0.0"
   resolved "https://registry.nlark.com/strip-final-newline/download/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
   integrity sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=
+
+style-loader@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.nlark.com/style-loader/download/style-loader-3.1.0.tgz?cache=0&sync_timestamp=1626117681329&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fstyle-loader%2Fdownload%2Fstyle-loader-3.1.0.tgz#e52a22ca2fd1f54c03f2c3e69b10182e68120908"
+  integrity sha1-5Soiyi/R9UwD8sPmmxAYLmgSCQg=
 
 supports-color@^8.0.0:
   version "8.1.1"
@@ -721,6 +875,11 @@ uri-js@^4.2.2:
   integrity sha1-mxpSWVIlhZ5V9mnZKPiMbFfyp34=
   dependencies:
     punycode "^2.1.0"
+
+util-deprecate@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+  integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
 v8-compile-cache@^2.2.0:
   version "2.3.0"
@@ -810,6 +969,11 @@ wildcard@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/wildcard/download/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
   integrity sha1-p30g5SAMb6qsl55LOq3Hs91/j+w=
+
+yallist@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.nlark.com/yallist/download/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
+  integrity sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=
 
 yocto-queue@^0.1.0:
   version "0.1.0"
