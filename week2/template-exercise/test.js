@@ -14,3 +14,4 @@ let s2 = str.replace(r1, (match, s0) => {
 })
 console.log(s2)
 console.log("x-x_".match(/(x_*)|(-)/g))
+

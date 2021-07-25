@@ -40,7 +40,7 @@ export default {
     console.log(tmpl)
     const v1 = new V1().mounted(this.$el); // 根目录元素dom上去
     v1.render(tmpl, {
-    image: "some img",
+    image: "https://wx1.sinaimg.cn/mw2000/66e52a37ly1gssu2eyeomj20j60auq3v.jpg",
     info: {showImage: true, showDate:false, name: "aaa"}
 });
   },
