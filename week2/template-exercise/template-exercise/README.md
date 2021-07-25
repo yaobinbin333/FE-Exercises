@@ -1,10 +1,13 @@
 # template-exercise
 要求：
-渲染：`<div class="newslist">
+渲染：
+```
+<div class="newslist">
     <div class="img" v-if="info.showImage"><img src="{{image}}"/></div>
     <div class="date" v-if="info.showDate">{{info.name}}</div>
     <div class="img">{{info.name}}</div>
-</div>`
+</div>
+```
 ## 说明：
 1. 更改了：`parseNodeToDom(root, data)`方法
 2. 还有关于`v-if`中的`-`不能识别，我replace为`_`，之后再识别
