@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd64642-58ab-4fcb-849a-9c677a6492cd" name="默认的" comment="build:初始化环境">
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/week2/template-exercise/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2/template-exercise/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

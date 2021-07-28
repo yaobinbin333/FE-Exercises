@@ -16,3 +16,5 @@ console.log(s2)
 // 修改bug。。。。
 console.log("x-x_".match(/(x_*)|(-)/g))
 
+// 在这里测试git stash,
+// 现在修改的好好的，但是有一个bug要修改了
